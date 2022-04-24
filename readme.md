@@ -14,8 +14,8 @@ Ce jeu est un dérivé du jeu littéraire _Le cadavre exquis_, mais en utilisant
 	
    	 Un jour, alors que je me promenais, ...
     ```
-3. Il doit alors finir la phrase précédemment commencée, **sans ouvrir le fichier texte**. Cela peut être fait grâce à la commande `echo je découvris une cabane. >> readme.md`
-4. Il commence ensuite une nouvelle phrase, et l'ajout au fichier, toujours sans ouvrir d'éditeur, par exemple: `echo Alors que j'en poussais la porte, >> readme.md`
+3. Il doit alors finir la phrase précédemment commencée, **sans ouvrir le fichier texte**. Cela peut être fait grâce à la commande `echo je découvris une cabane. >> histoire.md`
+4. Il commence ensuite une nouvelle phrase, et l'ajout au fichier, toujours sans ouvrir d'éditeur, par exemple: `echo Alors que j'en poussais la porte, >> histoire.md`
 5. Il enregistre les modifications avec la commande et réécris le dernier morceau de phrase dans le message du commit, afin que le prochain joueur puisse le lire, par exemple `git commit -am "Alors que j'en poussais la porte, ..."`
 6. Il pousse ensuite les modifications enregistrées sur son dépôt, par exemple: `git push origin master`.
 7. Sur GitHub, il peut enfin faire une Pull Request vers le dépôt du joueur précédent, qu'il a forké. ![Dans l'onglet "Pull Request", cliquer sur le bouton "New Pull Request".](images/rules-02.png). GitHub devrait automatiquement proposer le dépôt d'origine et le dépôt actuel (en 1), ainsi que les branches `master` de chacun de ces dépôts (en 2). ![Sélection des dépôts et des branches à comparer](images/rules-03.png)
