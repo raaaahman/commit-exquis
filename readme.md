@@ -4,7 +4,7 @@ Ce jeu est un dérivé du jeu littéraire _Le cadavre exquis_, mais en utilisant
 
 ## Règles du jeu
 
-1. Un·e premier·e joueur·se est désigné·e, il doit créer un fork de ce dépôt. ![Il faut cliquer sur le bouton "fork" en haut à droite.](images/rules-01.png)
+1. Un·e premier·e joueur·se est désigné·e, il·elle doit créer un fork de ce dépôt. ![Il faut cliquer sur le bouton "fork" en haut à droite.](images/rules-01.png)
 2. Une fois le dépôt "forké", il·elle crée une copie locale de son fork avec la commande `git clone https://github.com/<username*>/commit-exquis` (où `<username*>` est remplacé par son nom d'utilisateur·trice GitHub).
 4. Depuis la copie locale du dépôt, il·elle inspecte le dernier commit avec la commande `git log -n 1`, ce qui va lui révéler un morceau de phrase, par exemple: 
 	```
